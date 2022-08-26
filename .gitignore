@@ -1,0 +1,9 @@
+# folder
+.vscode
+
+# file type
+*.env
+*.pth
+
+# files
+__pycache__

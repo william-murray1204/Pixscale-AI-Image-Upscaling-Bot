@@ -28,8 +28,8 @@ def notifications(message_content):
 try:
     db.setup()  # Creates the necessary pixscale tables if they do not already exist
     all_processes = (
-        'ai_queue_handler.py',
-        'pixscale.py')
+        'source\\ai_queue_handler.py',
+        'source\\pixscale.py')
 
     def execute(process):
         system(f'python {process}')

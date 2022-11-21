@@ -217,13 +217,3 @@ def main():
 if __name__ == '__main__':
     main()
 
-
-# to do :sdfasdsdklahsdkaskldjklasjdklajskldjaklsdjlkasjdklasjdkljalks
-# to do :sdfasdsdklahsdkaskldjklasjdklajskldjaklsdjlkasjdklasjdkljalks
-# to do :sdfasdsdklahsdkaskldjklasjdklajskldjaklsdjlkasjdklasjdkljalks
-# to do :sdfasdsdklahsdkaskldjklasjdklajskldjaklsdjlkasjdklasjdkljalks
-# to do :sdfasdsdklahsdkaskldjklasjdklajskldjaklsdjlkasjdklasjdkljalks
-# to do :sdfasdsdklahsdkaskldjklasjdklajskldjaklsdjlkasjdklasjdkljalks
-# to do :sdfasdsdklahsdkaskldjklasjdklajskldjaklsdjlkasjdklasjdkljalks
-# to do :sdfasdsdklahsdkaskldjklasjdklajskldjaklsdjlkasjdklasjdkljalks
-# to do :sdfasdsdklahsdkaskldjklasjdklajsk=

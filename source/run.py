@@ -6,7 +6,7 @@ from traceback import format_exc
 from dotenv import load_dotenv
 from datetime import datetime
 from pixscale_db import DBHelper
-import requests
+import requests 
 
 
 # Retrieves sensitive data from .env file

@@ -1,7 +1,7 @@
 import os
 from basicsr.archs.rrdbnet_arch import RRDBNet
-from realesrgan import RealESRGANer
-from realesrgan.archs.srvgg_arch import SRVGGNetCompact
+from .realesrgan import RealESRGANer
+from .realesrgan.archs.srvgg_arch import SRVGGNetCompact
 import cv2
 
 

@@ -1,47 +1,35 @@
 # Pixscale_Telegram_Bot
 
-# Pip Installs
-pip install python-dotenv
-pip install pyTelegramBotAPI
-pip install mysql-connector-python
-pip install opencv-python
-pip install requests
-pip install Pillow
-pip install ffmpeg-python
-pip install gfpgan
-pip install tqdm
-pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117
-pip install basicsr
 
+## Installation
+1. Clone repo
+    git clone https://github.com/william-murray1204/Pixscale_Telegram.git
+    cd Pixscale_Telegram
 
-# Model Download Path
-wget https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth -P weights
-wget https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.2.4/RealESRGAN_x4plus_anime_6B.pth -P weights
-wget https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-animevideov3.pth -P weights
-wget https://github.com/TencentARC/GFPGAN/releases/download/v1.3.0/GFPGANv1.3.pth
+2. Install dependent packages
+    pip install -r requirements.txt
 
+3. Create .env file with the following
+    SERVER_IP =
+    DATABASE_PORT =
+    DATABASE_USER =
+    DATABASE_PASSWORD =
+    DATABASE_NAME =
+    POOL_NAME =
+    POOL_SIZE =
+    PIXSCALE_API_KEY =
+    EDWIN_API_KEY =
+    ADMIN_CHATID =
 
-
-
-
-# Environment File Requirements
-SERVER_IP=''
-DATABASE_PORT=
-DATABASE_USER=''
-DATABASE_PASSWORD=''
-DATABASE_NAME=''
-POOL_NAME=''
-POOL_SIZE=
-
-
-PIXSCALE_API_KEY = ''
-EDWIN_API_KEY = ''
-ADMIN_CHATID = ''
+4. Build Dockerfile
+    docker build .
 
 
 
-### To do
 
-- Real payment system
+## To do
+- Stop the algorithm from running tiling twice
+- Get Docker working
+- Setup real payment system
 
 [https://medium.com/codex/how-im-making-over-400-per-month-with-a-simple-bot-2c78afba4d54](https://medium.com/codex/how-im-making-over-400-per-month-with-a-simple-bot-2c78afba4d54)

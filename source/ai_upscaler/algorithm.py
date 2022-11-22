@@ -87,9 +87,3 @@ def algo(tile_size, upsampling_scale, animated, face_enhance_status, path_to_ima
         return 'memory_error'
 
 
-
-# sdahdjssdasdasdasdasdasd
-# sdasdasdasdasdasdasdasd
-# sdasdasdasdasdasdasdasd
-# sdasdasdasdasdasdasdasd
-

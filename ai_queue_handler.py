@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from ai_upscaler.algorithm import algo
+from algorithm import algo
 import os
 from dotenv import load_dotenv
 from telebot import TeleBot

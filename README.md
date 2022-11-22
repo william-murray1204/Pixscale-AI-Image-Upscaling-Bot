@@ -37,3 +37,11 @@ POOL_SIZE=
 PIXSCALE_API_KEY = ''
 EDWIN_API_KEY = ''
 ADMIN_CHATID = ''
+
+
+
+### To do
+
+- Real payment system
+
+[https://medium.com/codex/how-im-making-over-400-per-month-with-a-simple-bot-2c78afba4d54](https://medium.com/codex/how-im-making-over-400-per-month-with-a-simple-bot-2c78afba4d54)

@@ -1,7 +1,7 @@
 import os
 from basicsr.archs.rrdbnet_arch import RRDBNet
-from .realesrgan import RealESRGANer
-from .realesrgan.archs.srvgg_arch import SRVGGNetCompact
+from realesrgan import RealESRGANer
+from realesrgan.archs.srvgg_arch import SRVGGNetCompact
 import cv2
 
 
@@ -40,10 +40,10 @@ def algo(tile_size, upsampling_scale, animated, face_enhance_status, path_to_ima
 
     # determine model paths
     model_path = os.path.join(
-        'ai_upscaler/pretrained_models', model_name + '.pth')
+        'pretrained_models', model_name + '.pth')
     if not os.path.isfile(model_path):
         model_path = os.path.join(
-            'ai_upscaler/realesrgan/weights', model_name + '.pth')
+            'realesrgan/weights', model_name + '.pth')
     if not os.path.isfile(model_path):
         raise ValueError(f'Model {model_name} does not exist.')
 
@@ -69,7 +69,7 @@ def algo(tile_size, upsampling_scale, animated, face_enhance_status, path_to_ima
     if face_enhance:  # Use GFPGAN for face enhancement
         from gfpgan import GFPGANer
         face_enhancer = GFPGANer(
-            model_path='ai_upscaler/pretrained_models/GFPGANv1.3.pth',   
+            model_path='pretrained_models/GFPGANv1.3.pth',   
             upscale=upsampling_scale,
             arch='clean',
             channel_multiplier=2,

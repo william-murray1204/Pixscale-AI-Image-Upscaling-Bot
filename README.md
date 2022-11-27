@@ -31,5 +31,8 @@
 - Stop the algorithm from running tiling twice
 - Get Docker working
 - Setup real payment system
+- Fix payments for pixscale
+- Add a warning message when the bot is being used to say we are under strain and a link to donate to show how (if you like what we do, any donations small or large     help us continually improve our services helping us to deliver you a better user experience. Thanks for your understanding.)
+- Advertise on r/dropshipping
 
 [https://medium.com/codex/how-im-making-over-400-per-month-with-a-simple-bot-2c78afba4d54](https://medium.com/codex/how-im-making-over-400-per-month-with-a-simple-bot-2c78afba4d54)

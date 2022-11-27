@@ -225,7 +225,7 @@ def main():
                             if callback[1] == 'custom':
                                 def custom(message):
                                     sent = bot.send_message(
-                                        call.message.chat.id, 'Enter an upscale ratio larger than 0 and smaller than 4')
+                                        call.message.chat.id, 'Enter an upscale ratio larger than 0 and smaller than 4. A 10x10 pixel image and an upscale ratio of 2 will output a 20x20 pixel image. All images are enhanced regardless of the upscale ratio therefore a value of 1 will maintain the original dimensions.')
                                     bot.register_next_step_handler(
                                         sent, response)
 

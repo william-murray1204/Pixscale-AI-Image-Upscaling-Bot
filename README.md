@@ -20,6 +20,7 @@
     PIXSCALE_API_KEY =
     EDWIN_API_KEY =
     ADMIN_CHATID =
+    STRIPE_PROVIDER_TOKEN =
 
 4. Build Dockerfile
     docker build .

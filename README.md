@@ -33,6 +33,7 @@
 - Get Docker working
 - Setup real payment system
 - Fix payments for pixscale
+- Change cost of subscription (5$ probably)
 - Add a warning message when the bot is being used to say we are under strain and a link to donate to show how (if you like what we do, any donations small or large help us continuall improve our services helping us to deliver you a better user experience. Thanks for your understanding.)
 - Advertise on r/dropshipping
 - Create desktop application and allow local calculation or cloud callculation and pixscale access from within file explorer (Software license)

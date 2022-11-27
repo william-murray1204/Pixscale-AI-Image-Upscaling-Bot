@@ -30,6 +30,7 @@
 
 ## To do
 - Stop the algorithm from running tiling twice
+- Add cancel button that pops up after enhancing then goes away after message sent
 - Get Docker working
 - Setup real payment system
 - Fix payments for pixscale

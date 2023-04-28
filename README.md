@@ -3,8 +3,6 @@
 
 ## Installation
 1. Clone repo
-    git clone https://github.com/william-murray1204/Pixscale_Telegram.git
-    cd Pixscale_Telegram
 
 2. Install dependent packages
     pip install -r requirements.txt
